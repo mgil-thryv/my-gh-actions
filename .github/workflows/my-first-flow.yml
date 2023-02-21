@@ -7,5 +7,4 @@ jobs:
     steps:
       - run: echo "This is my first Workflow"
       - uses: actions/checkout@v3
-      - run: |
-        ls -lha ${{ github.workspace }}     
+      - run: ls -lha ${{ github.workspace }}     

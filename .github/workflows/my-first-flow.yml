@@ -1,0 +1,8 @@
+name: My first workflow
+run-name: My Workflow
+on: [push]
+jobs:
+  my-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is my first Workflow"

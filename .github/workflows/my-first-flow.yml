@@ -6,3 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "This is my first Workflow"
+      - uses: actions/checkout@v3
+      - run: |
+        ls -lha ${{ github.workspace }}     
